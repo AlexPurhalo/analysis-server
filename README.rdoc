@@ -1,7 +1,5 @@
 1. Run the server with "rails s" command
 2. Migrate data typing "rake db:migrate"
 3. Run "rake db:seed" or create user manually throw console
-4. Check user in database and ensure that he has "access_token" columnd with some content
-
-
-
+4. Sign in thorw console typing: "curl -X POST -H "Content-Type: application/json" -d '{"email": "aladin228@mail.com", "password": "abagalamaga"}' http://localhost:3000/sign_in" or use Postman
+5. Try to sign in with fake data and you should get error notification

@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  devise_for :users
+  resource :sign_in, only: [:create], controller: :sessions, defaults: { format: :json }
 end
