@@ -1,0 +1,7 @@
+1. Run the server with "rails s" command
+2. Migrate data typing "rake db:migrate"
+3. Run "rake db:seed" or create user manually throw console
+4. Check user in database and ensure that he has "access_token" columnd with some content
+
+
+
