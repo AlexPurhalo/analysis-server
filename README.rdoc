@@ -1,3 +1,5 @@
-1. Run the server with "rails s" command
-2. Migrate data typing "rake db:migrate"
-3. Try Sign Up throw another domain and ensure that this authentication works
+Sign Up
+- curl -X POST -H "Content-Type: application/json" -d '{"user": {"email": "ororo@mail.com", "password": "abagalamaga"}}' https://analysis-server.herokuapp.com/users
+
+Sign In
+- curl -X POST -H "Content-Type: application/json" -d '{"email": "aladin228@mail.com", "password": "abagalamaga"}' https://analysis-server.herokuapp.com/sign_in
